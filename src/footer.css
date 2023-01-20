@@ -1,0 +1,11 @@
+.footer-container {
+    position: absolute;
+    width: 100%;
+    height: 56px;
+    background: #61dafb;
+    top: calc( 100vh - 56px );
+}
+
+.footer-text {
+
+}
