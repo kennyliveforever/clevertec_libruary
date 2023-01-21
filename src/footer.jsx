@@ -6,6 +6,7 @@ export default function Footer() {
       <>
         <div className="footer-container">
             <div className="footer-text">© 2020-2023 Cleverland. Все права защищены.</div>
+            <div className={'footer-icons'}></div>
         </div>
       </>
   )
