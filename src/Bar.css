@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
+.bar-box {
+  position: absolute;
+  width: 825px;
+  height: 38px;
+  top: 152px;
+  left: 450px;
+}
+
+.search {
+  position: absolute;
+  height: 100%;
+  width: 350px;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18), 0px 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius: 599px;
+}
+
+input {
+  border: none;
+  position: absolute;
+  width: 190px;
+  height: 18px;
+  left: 40px;
+  top: calc(50% - 18px/2);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+input::placeholder {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #A7A7A7;
+}
+
+input:focus {
+  outline: none;
+}
+
+.lens {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 16px;
+  top: 11px;
+  background: url("../public/Icon_Action.png");
+}
+
+.sort {
+position: absolute;
+  width: 150px;
+  height: 38px;
+  left: 366px;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18), 0px 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius: 599px;
+}
+
+.icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 16px;
+  top: 11px;
+  background: url("../public/Icon_Action (1).png");
+}
+
+.sort-by {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  height: 18px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #A7A7A7;
+}
+
+.button-view {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  right: 54px;
+  background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+  border-radius: 599px;
+  filter: drop-shadow(0px 2px 4px rgba(191, 196, 201, 0.2)) drop-shadow(0px 3px 4px rgba(191, 196, 201, 0.18)) drop-shadow(0px 1px 5px rgba(191, 196, 201, 0.24));
+}
+
+.view-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 9.5px;
+  left: 9.5px;
+  background: url("../public/Icon_Action (2).png");
+}
+
+.filters {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  right: 0px;
+  border-radius: 599px;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18), 0px 1px 5px rgba(191, 196, 201, 0.24);
+  filter: drop-shadow(0px 2px 4px rgba(191, 196, 201, 0.2)) drop-shadow(0px 3px 4px rgba(191, 196, 201, 0.18)) drop-shadow(0px 1px 5px rgba(191, 196, 201, 0.24));
+}
+
+.filters-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 9.5px;
+  left: 9.5px;
+  background: url("../public/Icon_Action (3).png");
+}

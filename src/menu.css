@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap');
 
 .menu-container {
-  position: absolute;
+  position: relative;
   width: 279px;
   height: 824px;
   left: 165px;
-  top: 152px;
+  top: 62px;
   display: flex;
   flex-direction: column;
 }
 
 .active-item {
   text-align: start;
-  width: 100%;
+  width: 255px;
   flex-basis: 36px;
   font-family: 'Montserrat';
   font-style: normal;

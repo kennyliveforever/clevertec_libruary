@@ -4,6 +4,7 @@
 
 
 .container {
+    display: block;
     position: relative;
     top: 0;
     height: 105px;
@@ -11,17 +12,18 @@
 }
 
 .content {
-    position: relative;
+    position: absolute;
     top: 32px;
     /*background-color: mediumpurple;*/
-    max-width: 1110px;
+    width: 1110px;
     height: 58px;
-    left: calc((100% - 1110px) / 2 );
+    left: 165px;
     display: flex;
     align-items: center;
 }
 
 .logo {
+    position: absolute;
     width: 165px;
     height: 40px;
     background-image: url("../public/logo.png");

@@ -1,8 +1,11 @@
+import React from "react";
+
 import './App.css';
 import Header from "./header";
 import Footer from "./footer";
 import Menu from "./menu";
-import React from "react";
+import Content from "./content";
+import Bar from "./Bar";
 
 function App() {
   return (
@@ -10,6 +13,8 @@ function App() {
     <div className="App">
         <Header/>
         <Menu/>
+        <Bar/>
+        <Content/>
         <Footer/>
     </div>
       </>
