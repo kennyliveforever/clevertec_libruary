@@ -6,6 +6,7 @@ import Footer from "./footer";
 import Menu from "./menu";
 import Content from "./content";
 import Bar from "./Bar";
+import './card.css'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Header/>
         <Menu/>
         <Bar/>
-        <Content/>
+        <Content></Content>
         <Footer/>
     </div>
       </>

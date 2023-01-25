@@ -1,12 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
 .card-box {
-  width: 190px;
-  height: 470px;
+    position: relative;
+    width: 190px;
+    height: 470px;
+    box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18), 0px 1px 5px rgba(191, 196, 201, 0.24);
+    border-radius: 10px;
 }
 
 .card-picture {
-  position: absolute;
-  width: 174px;
-  height: 242px;
-  margin: 8px;
-  background: url("../public/image.png");
+    position: absolute;
+    width: 174px;
+    height: 242px;
+    margin: 8px;
+    background: url("../public/image.png");
 }
+
+.rate {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    position: absolute;
+    width: 144px;
+    height: 24px;
+    left: 8px;
+    top: 266px;
+}
+
+.star {
+    width: 24px;
+    height: 24px;
+    background: url("../public/Icon_star.png");
+}
+
+#star-empty {
+    background: url("../public/Icon_star (1).png");
+}
+
+.order-button {
+    position: absolute;
+    height: 40px;
+    width: 166px;
+    left: 12px;
+    right: 12px;
+    top: 414px;
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    border-radius: 20px;
+}
+
+.order-button-text {
+    position: absolute;
+    width: 120px;
+    height: 18px;
+    left: calc(50% - 120px/2);
+    top: calc(50% - 18px/2);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+.description {
+    position: absolute;
+    width: 174px;
+    height: 80px;
+    left: 8px;
+    top: 306px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-title {
+    height: 54px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #363636;
+}
+
+.book-author {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #727272;
+}
+

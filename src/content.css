@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
 .content-box {
   position: absolute;
   top: 222px;
@@ -10,5 +12,3 @@
   grid-column-gap: 21.5px;
   grid-row-gap: 21.5px;
 }
-
-
