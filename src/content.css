@@ -8,7 +8,6 @@
   display: grid;
   grid-row: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  border: solid 3px coral;
   grid-column-gap: 21.5px;
   grid-row-gap: 21.5px;
 }

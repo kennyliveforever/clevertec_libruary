@@ -13,7 +13,7 @@
     width: 174px;
     height: 242px;
     margin: 8px;
-    background: url("../public/image.png");
+    /*background: url("../public/image.png");*/
 }
 
 .rate {
@@ -28,6 +28,18 @@
     height: 24px;
     left: 8px;
     top: 266px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 0.1px;
+
+    /* grey/black 40 */
+
+    color: #A7A7A7;
 }
 
 .star {
